@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(192, 23, 173) , rgb(14, 241, 192), rgb(196, 244, 7) );
+}
+.wrapper{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    color: aliceblue;
+    box-shadow: rgb(0, 0,0,.3)0px 15px 38px , rgb(0, 0,0,.22)0px 15px 13px;
+
+}
+.cell{
+    
+    height: 150px;
+    width: 150px;
+    background-color: #000000;
+    border: 1px solid rgb(193, 78, 205);
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#restart{
+    margin: 10px auto 20px auto;
+    padding:20px ;
+    font-size: 40px;
+    color: white;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#status{
+    margin: 10px auto 20px auto;
+    color: white;
+    font-size: 50px;
+}
+.imgGif img{
+    height: 75px;
+    width: 0;
+    position: absolute;
+    top: 576px;
+    left: 847px;
+    transition: width 1s ease-in-out;
+}
